@@ -1,0 +1,130 @@
+/* GENERAL */
+body {
+    margin: 0;
+    background: #0c0c0c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 70vh;
+    background: linear-gradient(135deg, #111, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #ccc;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0088cc;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 40px;
+}
+
+.section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.skill-card {
+    padding: 15px;
+    background: #1a1a1a;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    background: #222;
+}
+
+/* PROJECT CARDS */
+.project-card {
+    background: #141414;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #00aaff;
+    border-radius: 6px;
+}
+
+.project-card h3 {
+    margin: 0 0 10px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #777;
+    margin-top: 30px;
+}
